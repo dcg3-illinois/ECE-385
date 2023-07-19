@@ -1,0 +1,25 @@
+00:39:24 **** Incremental Build of configuration Nios II for project usb_kb ****
+make all 
+Info: Building ../usb_kb_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../usb_kb_bsp/
+[BSP build complete]
+Info: Compiling usb_kb/text_mode_vga.c to obj/default/usb_kb/text_mode_vga.o
+nios2-elf-gcc -xc -MP -MMD -c -I../usb_kb_bsp//HAL/inc -I../usb_kb_bsp/ -I../usb_kb_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/usb_kb/text_mode_vga.o usb_kb/text_mode_vga.c
+In file included from usb_kb/text_mode_vga.c:14:0:
+usb_kb/text_mode_vga.h:36:52: error: 'VGA_TEXT_MODE_CONTROLLER_0_BASE' undeclared here (not in a function)
+ static volatile struct TEXT_VGA_STRUCT* vga_ctrl = VGA_TEXT_MODE_CONTROLLER_0_BASE;
+                                                    ^
+usb_kb/text_mode_vga.c: In function 'textVGATest':
+usb_kb/text_mode_vga.c:56:11: warning: format '%x' expects argument of type 'unsigned int', but argument 3 has type 'alt_u32 {aka long unsigned int}' [-Wformat=]
+   printf ("Row: %d, Checksum: %x, Read-back Checksum: %x\n\r", j, checksum[j], readsum[j]);
+           ^
+usb_kb/text_mode_vga.c:56:11: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'alt_u32 {aka long unsigned int}' [-Wformat=]
+usb_kb/text_mode_vga.c:56:11: warning: format '%x' expects argument of type 'unsigned int', but argument 3 has type 'alt_u32 {aka long unsigned int}' [-Wformat=]
+usb_kb/text_mode_vga.c:56:11: warning: format '%x' expects argument of type 'unsigned int', but argument 4 has type 'alt_u32 {aka long unsigned int}' [-Wformat=]
+usb_kb/text_mode_vga.c:64:2: warning: implicit declaration of function 'usleep' [-Wimplicit-function-declaration]
+  usleep (500000);
+  ^
+make: *** [obj/default/usb_kb/text_mode_vga.o] Error 1
+
+00:39:26 Build Finished (took 1s.702ms)
+

@@ -1,0 +1,1069 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do lab5_2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/flipflop.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:11:51 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/flipflop.sv 
+# -- Compiling module flipflop
+# 
+# Top level modules:
+# 	flipflop
+# End time: 18:11:51 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/test_memory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:11:52 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/test_memory.sv 
+# -- Compiling module test_memory
+# 
+# Top level modules:
+# 	test_memory
+# End time: 18:11:52 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/synchronizers.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:11:52 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/synchronizers.sv 
+# -- Compiling module sync
+# -- Compiling module sync_r0
+# -- Compiling module sync_r1
+# 
+# Top level modules:
+# 	sync
+# 	sync_r0
+# 	sync_r1
+# End time: 18:11:52 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/SLC3_2.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:11:52 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/SLC3_2.sv 
+# -- Compiling package SLC3_2
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:11:52 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/reg_16.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:11:52 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/reg_16.sv 
+# -- Compiling module reg_16
+# 
+# Top level modules:
+# 	reg_16
+# End time: 18:11:52 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/NZP_reg.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:11:52 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/NZP_reg.sv 
+# -- Compiling module NZP_reg
+# 
+# Top level modules:
+# 	NZP_reg
+# End time: 18:11:53 on Mar 19,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_4_4.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:11:53 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_4_4.sv 
+# -- Compiling module mux_4_4
+# 
+# Top level modules:
+# 	mux_4_4
+# End time: 18:11:53 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_4_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:11:53 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_4_1.sv 
+# -- Compiling module mux_4_1
+# 
+# Top level modules:
+# 	mux_4_1
+# End time: 18:11:53 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1_3.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:11:53 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1_3.sv 
+# -- Compiling module mux_2_1_3
+# 
+# Top level modules:
+# 	mux_2_1_3
+# End time: 18:11:53 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:11:53 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1.sv 
+# -- Compiling module mux_2_1
+# 
+# Top level modules:
+# 	mux_2_1
+# End time: 18:11:53 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/Mem2IO.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:11:53 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/Mem2IO.sv 
+# -- Compiling module Mem2IO
+# 
+# Top level modules:
+# 	Mem2IO
+# End time: 18:11:53 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/ISDU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:11:53 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/ISDU.sv 
+# -- Compiling module ISDU
+# 
+# Top level modules:
+# 	ISDU
+# End time: 18:11:53 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/HexDriver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:11:53 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 18:11:54 on Mar 19,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/ALU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:11:54 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/ALU.sv 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 18:11:54 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/slc3.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:11:54 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/slc3.sv 
+# -- Compiling module slc3
+# 
+# Top level modules:
+# 	slc3
+# End time: 18:11:54 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/register_unit.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:11:54 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/register_unit.sv 
+# -- Compiling module register_unit
+# 
+# Top level modules:
+# 	register_unit
+# End time: 18:11:54 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/memory_contents.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:11:54 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/memory_contents.sv 
+# -- Compiling package memory_contents_sv_unit
+# -- Importing package SLC3_2
+# -- Compiling module memory_parser
+# 
+# Top level modules:
+# 	memory_parser
+# End time: 18:11:54 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/slc3_testtop.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:11:54 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/slc3_testtop.sv 
+# -- Compiling module slc3_testtop
+# 
+# Top level modules:
+# 	slc3_testtop
+# End time: 18:11:54 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/Lab5_2/../ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/Lab5_2/../ece_385_yay/lab5_2/testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:11:55 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/Lab5_2/../ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/Lab5_2/../ece_385_yay/lab5_2/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 18:11:55 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  testbench
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 18:11:55 on Mar 19,2023
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.slc3_testtop
+# Loading work.slc3
+# Loading work.Mem2IO
+# Loading work.mux_2_1
+# Loading work.reg_16
+# Loading work.ISDU
+# Loading work.NZP_reg
+# Loading work.flipflop
+# Loading work.mux_4_1
+# Loading work.mux_4_4
+# Loading work.ALU
+# Loading work.mux_2_1_3
+# Loading work.register_unit
+# Loading work.test_memory
+# Loading work.SLC3_2
+# Loading work.memory_contents_sv_unit
+# Loading work.memory_parser
+# Loading work.HexDriver
+# Loading work.sync
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 1000000 ns
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/register_unit.sv(33): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/reg_u
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1.sv(28): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/SR2MUX_unit
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1_3.sv(20): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/SR1MUX_unit
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1_3.sv(20): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/DRMUX_unit
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1.sv(28): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/ADDR1MUX_unit
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_4_1.sv(25): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/ADDR2MUX_unit
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_4_1.sv(25): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/PCMUX_unit
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1.sv(28): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/MDRMUX_unit
+do lab5_2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# Error 31: Unable to unlink file "C:/Personal_Stuff/School/ECE385/Lab5_2/simulation/modelsim/rtl_work/_lib.qdb".
+# Error 133: Unable to remove directory "C:/Personal_Stuff/School/ECE385/Lab5_2/simulation/modelsim/rtl_work".
+# vlib rtl_work
+# ** Error: (vlib-35) Failed to create directory "rtl_work".
+# File exists. (errno = EEXIST)
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/flipflop.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:17:39 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/flipflop.sv 
+# -- Compiling module flipflop
+# 
+# Top level modules:
+# 	flipflop
+# End time: 18:17:39 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/test_memory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:17:39 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/test_memory.sv 
+# -- Compiling module test_memory
+# 
+# Top level modules:
+# 	test_memory
+# End time: 18:17:39 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/synchronizers.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:17:39 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/synchronizers.sv 
+# -- Compiling module sync
+# -- Compiling module sync_r0
+# -- Compiling module sync_r1
+# 
+# Top level modules:
+# 	sync
+# 	sync_r0
+# 	sync_r1
+# End time: 18:17:39 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/SLC3_2.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:17:39 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/SLC3_2.sv 
+# -- Compiling package SLC3_2
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:17:39 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/reg_16.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:17:39 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/reg_16.sv 
+# -- Compiling module reg_16
+# 
+# Top level modules:
+# 	reg_16
+# End time: 18:17:39 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/NZP_reg.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:17:39 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/NZP_reg.sv 
+# -- Compiling module NZP_reg
+# 
+# Top level modules:
+# 	NZP_reg
+# End time: 18:17:39 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_4_4.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:17:39 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_4_4.sv 
+# -- Compiling module mux_4_4
+# 
+# Top level modules:
+# 	mux_4_4
+# End time: 18:17:39 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_4_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:17:39 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_4_1.sv 
+# -- Compiling module mux_4_1
+# 
+# Top level modules:
+# 	mux_4_1
+# End time: 18:17:40 on Mar 19,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1_3.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:17:40 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1_3.sv 
+# -- Compiling module mux_2_1_3
+# 
+# Top level modules:
+# 	mux_2_1_3
+# End time: 18:17:40 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:17:40 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1.sv 
+# -- Compiling module mux_2_1
+# 
+# Top level modules:
+# 	mux_2_1
+# End time: 18:17:40 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/Mem2IO.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:17:40 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/Mem2IO.sv 
+# -- Compiling module Mem2IO
+# 
+# Top level modules:
+# 	Mem2IO
+# End time: 18:17:40 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/ISDU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:17:40 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/ISDU.sv 
+# -- Compiling module ISDU
+# 
+# Top level modules:
+# 	ISDU
+# End time: 18:17:40 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/HexDriver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:17:40 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 18:17:40 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/ALU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:17:40 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/ALU.sv 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 18:17:40 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/slc3.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:17:40 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/slc3.sv 
+# -- Compiling module slc3
+# 
+# Top level modules:
+# 	slc3
+# End time: 18:17:41 on Mar 19,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/register_unit.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:17:41 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/register_unit.sv 
+# -- Compiling module register_unit
+# 
+# Top level modules:
+# 	register_unit
+# End time: 18:17:41 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/memory_contents.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:17:41 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/memory_contents.sv 
+# -- Compiling package memory_contents_sv_unit
+# -- Importing package SLC3_2
+# -- Compiling module memory_parser
+# 
+# Top level modules:
+# 	memory_parser
+# End time: 18:17:41 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/slc3_testtop.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:17:41 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/slc3_testtop.sv 
+# -- Compiling module slc3_testtop
+# 
+# Top level modules:
+# 	slc3_testtop
+# End time: 18:17:41 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/Lab5_2/../ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/Lab5_2/../ece_385_yay/lab5_2/testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:17:41 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/Lab5_2/../ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/Lab5_2/../ece_385_yay/lab5_2/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 18:17:41 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 18:17:44 on Mar 19,2023, Elapsed time: 0:05:49
+# Errors: 0, Warnings: 8
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 18:17:44 on Mar 19,2023
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.slc3_testtop
+# Loading work.slc3
+# Loading work.Mem2IO
+# Loading work.mux_2_1
+# Loading work.reg_16
+# Loading work.ISDU
+# Loading work.NZP_reg
+# Loading work.flipflop
+# Loading work.mux_4_1
+# Loading work.mux_4_4
+# Loading work.ALU
+# Loading work.mux_2_1_3
+# Loading work.register_unit
+# Loading work.test_memory
+# Loading work.SLC3_2
+# Loading work.memory_contents_sv_unit
+# Loading work.memory_parser
+# Loading work.HexDriver
+# Loading work.sync
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 1000000 ns
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/register_unit.sv(33): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/reg_u
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1.sv(28): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/SR2MUX_unit
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1_3.sv(20): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/SR1MUX_unit
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1_3.sv(20): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/DRMUX_unit
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1.sv(28): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/ADDR1MUX_unit
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_4_1.sv(25): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/ADDR2MUX_unit
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_4_1.sv(25): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/PCMUX_unit
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1.sv(28): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/MDRMUX_unit
+do lab5_2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/flipflop.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:21:42 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/flipflop.sv 
+# -- Compiling module flipflop
+# 
+# Top level modules:
+# 	flipflop
+# End time: 18:21:42 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/test_memory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:21:42 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/test_memory.sv 
+# -- Compiling module test_memory
+# 
+# Top level modules:
+# 	test_memory
+# End time: 18:21:42 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/synchronizers.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:21:42 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/synchronizers.sv 
+# -- Compiling module sync
+# -- Compiling module sync_r0
+# -- Compiling module sync_r1
+# 
+# Top level modules:
+# 	sync
+# 	sync_r0
+# 	sync_r1
+# End time: 18:21:43 on Mar 19,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/SLC3_2.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:21:43 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/SLC3_2.sv 
+# -- Compiling package SLC3_2
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:21:43 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/reg_16.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:21:43 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/reg_16.sv 
+# -- Compiling module reg_16
+# 
+# Top level modules:
+# 	reg_16
+# End time: 18:21:43 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/NZP_reg.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:21:43 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/NZP_reg.sv 
+# -- Compiling module NZP_reg
+# 
+# Top level modules:
+# 	NZP_reg
+# End time: 18:21:43 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_4_4.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:21:43 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_4_4.sv 
+# -- Compiling module mux_4_4
+# 
+# Top level modules:
+# 	mux_4_4
+# End time: 18:21:43 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_4_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:21:43 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_4_1.sv 
+# -- Compiling module mux_4_1
+# 
+# Top level modules:
+# 	mux_4_1
+# End time: 18:21:43 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1_3.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:21:43 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1_3.sv 
+# -- Compiling module mux_2_1_3
+# 
+# Top level modules:
+# 	mux_2_1_3
+# End time: 18:21:43 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:21:43 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1.sv 
+# -- Compiling module mux_2_1
+# 
+# Top level modules:
+# 	mux_2_1
+# End time: 18:21:43 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/Mem2IO.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:21:44 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/Mem2IO.sv 
+# -- Compiling module Mem2IO
+# 
+# Top level modules:
+# 	Mem2IO
+# End time: 18:21:44 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/ISDU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:21:44 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/ISDU.sv 
+# -- Compiling module ISDU
+# 
+# Top level modules:
+# 	ISDU
+# End time: 18:21:44 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/HexDriver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:21:44 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 18:21:44 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/ALU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:21:44 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/ALU.sv 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 18:21:44 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/slc3.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:21:44 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/slc3.sv 
+# -- Compiling module slc3
+# 
+# Top level modules:
+# 	slc3
+# End time: 18:21:44 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/register_unit.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:21:44 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/register_unit.sv 
+# -- Compiling module register_unit
+# 
+# Top level modules:
+# 	register_unit
+# End time: 18:21:44 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/memory_contents.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:21:44 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/memory_contents.sv 
+# -- Compiling package memory_contents_sv_unit
+# -- Importing package SLC3_2
+# -- Compiling module memory_parser
+# 
+# Top level modules:
+# 	memory_parser
+# End time: 18:21:45 on Mar 19,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/slc3_testtop.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:21:45 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/slc3_testtop.sv 
+# -- Compiling module slc3_testtop
+# 
+# Top level modules:
+# 	slc3_testtop
+# End time: 18:21:45 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/Lab5_2/../ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/Lab5_2/../ece_385_yay/lab5_2/testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:21:45 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/Lab5_2/../ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/Lab5_2/../ece_385_yay/lab5_2/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 18:21:45 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 18:21:48 on Mar 19,2023, Elapsed time: 0:04:04
+# Errors: 0, Warnings: 8
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 18:21:48 on Mar 19,2023
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.slc3_testtop
+# Loading work.slc3
+# Loading work.Mem2IO
+# Loading work.mux_2_1
+# Loading work.reg_16
+# Loading work.ISDU
+# Loading work.NZP_reg
+# Loading work.flipflop
+# Loading work.mux_4_1
+# Loading work.mux_4_4
+# Loading work.ALU
+# Loading work.mux_2_1_3
+# Loading work.register_unit
+# Loading work.test_memory
+# Loading work.SLC3_2
+# Loading work.memory_contents_sv_unit
+# Loading work.memory_parser
+# Loading work.HexDriver
+# Loading work.sync
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 1000000 ns
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/register_unit.sv(33): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/reg_u
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1.sv(28): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/SR2MUX_unit
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1_3.sv(20): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/SR1MUX_unit
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1_3.sv(20): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/DRMUX_unit
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1.sv(28): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/ADDR1MUX_unit
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_4_1.sv(25): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/ADDR2MUX_unit
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_4_1.sv(25): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/PCMUX_unit
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1.sv(28): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/MDRMUX_unit
+do lab5_2_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/flipflop.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:23:12 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/flipflop.sv 
+# -- Compiling module flipflop
+# 
+# Top level modules:
+# 	flipflop
+# End time: 18:23:12 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/test_memory.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:23:12 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/test_memory.sv 
+# -- Compiling module test_memory
+# 
+# Top level modules:
+# 	test_memory
+# End time: 18:23:13 on Mar 19,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/synchronizers.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:23:13 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/synchronizers.sv 
+# -- Compiling module sync
+# -- Compiling module sync_r0
+# -- Compiling module sync_r1
+# 
+# Top level modules:
+# 	sync
+# 	sync_r0
+# 	sync_r1
+# End time: 18:23:13 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/SLC3_2.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:23:13 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/SLC3_2.sv 
+# -- Compiling package SLC3_2
+# 
+# Top level modules:
+# 	--none--
+# End time: 18:23:13 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/reg_16.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:23:13 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/reg_16.sv 
+# -- Compiling module reg_16
+# 
+# Top level modules:
+# 	reg_16
+# End time: 18:23:13 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/NZP_reg.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:23:13 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/NZP_reg.sv 
+# -- Compiling module NZP_reg
+# 
+# Top level modules:
+# 	NZP_reg
+# End time: 18:23:13 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_4_4.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:23:13 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_4_4.sv 
+# -- Compiling module mux_4_4
+# 
+# Top level modules:
+# 	mux_4_4
+# End time: 18:23:13 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_4_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:23:13 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_4_1.sv 
+# -- Compiling module mux_4_1
+# 
+# Top level modules:
+# 	mux_4_1
+# End time: 18:23:14 on Mar 19,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1_3.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:23:14 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1_3.sv 
+# -- Compiling module mux_2_1_3
+# 
+# Top level modules:
+# 	mux_2_1_3
+# End time: 18:23:14 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:23:14 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1.sv 
+# -- Compiling module mux_2_1
+# 
+# Top level modules:
+# 	mux_2_1
+# End time: 18:23:14 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/Mem2IO.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:23:14 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/Mem2IO.sv 
+# -- Compiling module Mem2IO
+# 
+# Top level modules:
+# 	Mem2IO
+# End time: 18:23:14 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/ISDU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:23:14 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/ISDU.sv 
+# -- Compiling module ISDU
+# 
+# Top level modules:
+# 	ISDU
+# End time: 18:23:14 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/HexDriver.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:23:14 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/HexDriver.sv 
+# -- Compiling module HexDriver
+# 
+# Top level modules:
+# 	HexDriver
+# End time: 18:23:14 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/ALU.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:23:14 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/ALU.sv 
+# -- Compiling module ALU
+# 
+# Top level modules:
+# 	ALU
+# End time: 18:23:14 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/slc3.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:23:14 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/slc3.sv 
+# -- Compiling module slc3
+# 
+# Top level modules:
+# 	slc3
+# End time: 18:23:15 on Mar 19,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/register_unit.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:23:15 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/register_unit.sv 
+# -- Compiling module register_unit
+# 
+# Top level modules:
+# 	register_unit
+# End time: 18:23:15 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/memory_contents.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:23:15 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/memory_contents.sv 
+# -- Compiling package memory_contents_sv_unit
+# -- Importing package SLC3_2
+# -- Compiling module memory_parser
+# 
+# Top level modules:
+# 	memory_parser
+# End time: 18:23:15 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/slc3_testtop.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:23:15 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/slc3_testtop.sv 
+# -- Compiling module slc3_testtop
+# 
+# Top level modules:
+# 	slc3_testtop
+# End time: 18:23:15 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -sv -work work +incdir+C:/Personal_Stuff/School/ECE385/Lab5_2/../ece_385_yay/lab5_2 {C:/Personal_Stuff/School/ECE385/Lab5_2/../ece_385_yay/lab5_2/testbench.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 18:23:15 on Mar 19,2023
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Personal_Stuff/School/ECE385/Lab5_2/../ece_385_yay/lab5_2" C:/Personal_Stuff/School/ECE385/Lab5_2/../ece_385_yay/lab5_2/testbench.sv 
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 18:23:15 on Mar 19,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs="+acc"  testbench
+# End time: 18:23:18 on Mar 19,2023, Elapsed time: 0:01:30
+# Errors: 0, Warnings: 8
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L fiftyfivenm_ver -L rtl_work -L work -voptargs=""+acc"" testbench 
+# Start time: 18:23:18 on Mar 19,2023
+# Loading sv_std.std
+# Loading work.testbench
+# Loading work.slc3_testtop
+# Loading work.slc3
+# Loading work.Mem2IO
+# Loading work.mux_2_1
+# Loading work.reg_16
+# Loading work.ISDU
+# Loading work.NZP_reg
+# Loading work.flipflop
+# Loading work.mux_4_1
+# Loading work.mux_4_4
+# Loading work.ALU
+# Loading work.mux_2_1_3
+# Loading work.register_unit
+# Loading work.test_memory
+# Loading work.SLC3_2
+# Loading work.memory_contents_sv_unit
+# Loading work.memory_parser
+# Loading work.HexDriver
+# Loading work.sync
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run 1000000 ns
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/register_unit.sv(33): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/reg_u
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1.sv(28): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/SR2MUX_unit
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1_3.sv(20): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/SR1MUX_unit
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1_3.sv(20): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/DRMUX_unit
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1.sv(28): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/ADDR1MUX_unit
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_4_1.sv(25): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/ADDR2MUX_unit
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_4_1.sv(25): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/PCMUX_unit
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1.sv(28): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/MDRMUX_unit
+do wave.do
+restart -f; run 30000ns
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/register_unit.sv(33): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/reg_u
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1.sv(28): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/SR2MUX_unit
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1_3.sv(20): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/SR1MUX_unit
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1_3.sv(20): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/DRMUX_unit
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1.sv(28): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/ADDR1MUX_unit
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_4_1.sv(25): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/ADDR2MUX_unit
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_4_1.sv(25): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/PCMUX_unit
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1.sv(28): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/MDRMUX_unit
+restart -f; run 300000ns
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/register_unit.sv(33): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/reg_u
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1.sv(28): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/SR2MUX_unit
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1_3.sv(20): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/SR1MUX_unit
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1_3.sv(20): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/DRMUX_unit
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1.sv(28): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/ADDR1MUX_unit
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_4_1.sv(25): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/ADDR2MUX_unit
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_4_1.sv(25): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/PCMUX_unit
+# ** Warning: (vsim-8315) C:/Personal_Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1.sv(28): No condition is true in the unique/priority if/case statement.
+#    Time: 0 ps  Iteration: 0  Instance: /testbench/topLev/slc/MDRMUX_unit
+# End time: 20:21:22 on Mar 19,2023, Elapsed time: 1:58:04
+# Errors: 0, Warnings: 24

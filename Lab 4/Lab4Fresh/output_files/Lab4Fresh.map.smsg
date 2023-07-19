@@ -1,0 +1,5 @@
+Info (10281): Verilog HDL Declaration information at Processor.sv(17): object "HEX2" differs only in case from object "Hex2" in the same scope File: C:/Personal Stuff/School/ECE385/Lab 4/Lab4Fresh/Processor.sv Line: 17
+Info (10281): Verilog HDL Declaration information at Processor.sv(15): object "HEX0" differs only in case from object "Hex0" in the same scope File: C:/Personal Stuff/School/ECE385/Lab 4/Lab4Fresh/Processor.sv Line: 15
+Info (10281): Verilog HDL Declaration information at Processor.sv(18): object "HEX3" differs only in case from object "Hex3" in the same scope File: C:/Personal Stuff/School/ECE385/Lab 4/Lab4Fresh/Processor.sv Line: 18
+Info (10281): Verilog HDL Declaration information at Processor.sv(16): object "HEX1" differs only in case from object "Hex1" in the same scope File: C:/Personal Stuff/School/ECE385/Lab 4/Lab4Fresh/Processor.sv Line: 16
+Warning (10273): Verilog HDL warning at HexDriver.sv(23): extended using "x" or "z" File: C:/Personal Stuff/School/ECE385/Lab 4/Lab4Fresh/HexDriver.sv Line: 23

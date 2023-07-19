@@ -1,0 +1,16 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -sv -work work +incdir+C:/Personal\ Stuff/School/ECE385 {C:/Personal Stuff/School/ECE385/Synchronizers.sv}
+vlog -sv -work work +incdir+C:/Personal\ Stuff/School/ECE385 {C:/Personal Stuff/School/ECE385/Router.sv}
+vlog -sv -work work +incdir+C:/Personal\ Stuff/School/ECE385 {C:/Personal Stuff/School/ECE385/Reg_4.sv}
+vlog -sv -work work +incdir+C:/Personal\ Stuff/School/ECE385 {C:/Personal Stuff/School/ECE385/HexDriver.sv}
+vlog -sv -work work +incdir+C:/Personal\ Stuff/School/ECE385 {C:/Personal Stuff/School/ECE385/Control.sv}
+vlog -sv -work work +incdir+C:/Personal\ Stuff/School/ECE385 {C:/Personal Stuff/School/ECE385/compute.sv}
+vlog -sv -work work +incdir+C:/Personal\ Stuff/School/ECE385 {C:/Personal Stuff/School/ECE385/Register_unit.sv}
+vlog -sv -work work +incdir+C:/Personal\ Stuff/School/ECE385 {C:/Personal Stuff/School/ECE385/Processor.sv}
+

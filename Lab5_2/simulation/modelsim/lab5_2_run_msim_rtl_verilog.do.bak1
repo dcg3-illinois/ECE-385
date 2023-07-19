@@ -1,0 +1,25 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Personal\ Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal Stuff/School/ECE385/ece_385_yay/lab5_2/ram.v}
+vlog -sv -work work +incdir+C:/Personal\ Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal Stuff/School/ECE385/ece_385_yay/lab5_2/synchronizers.sv}
+vlog -sv -work work +incdir+C:/Personal\ Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal Stuff/School/ECE385/ece_385_yay/lab5_2/SLC3_2.sv}
+vlog -sv -work work +incdir+C:/Personal\ Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal Stuff/School/ECE385/ece_385_yay/lab5_2/reg_16.sv}
+vlog -sv -work work +incdir+C:/Personal\ Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal Stuff/School/ECE385/ece_385_yay/lab5_2/NZP_reg.sv}
+vlog -sv -work work +incdir+C:/Personal\ Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal Stuff/School/ECE385/ece_385_yay/lab5_2/mux_4_4.sv}
+vlog -sv -work work +incdir+C:/Personal\ Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal Stuff/School/ECE385/ece_385_yay/lab5_2/mux_4_1.sv}
+vlog -sv -work work +incdir+C:/Personal\ Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1_3.sv}
+vlog -sv -work work +incdir+C:/Personal\ Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal Stuff/School/ECE385/ece_385_yay/lab5_2/mux_2_1.sv}
+vlog -sv -work work +incdir+C:/Personal\ Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal Stuff/School/ECE385/ece_385_yay/lab5_2/Mem2IO.sv}
+vlog -sv -work work +incdir+C:/Personal\ Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal Stuff/School/ECE385/ece_385_yay/lab5_2/ISDU.sv}
+vlog -sv -work work +incdir+C:/Personal\ Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal Stuff/School/ECE385/ece_385_yay/lab5_2/HexDriver.sv}
+vlog -sv -work work +incdir+C:/Personal\ Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal Stuff/School/ECE385/ece_385_yay/lab5_2/ALU.sv}
+vlog -sv -work work +incdir+C:/Personal\ Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal Stuff/School/ECE385/ece_385_yay/lab5_2/slc3.sv}
+vlog -sv -work work +incdir+C:/Personal\ Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal Stuff/School/ECE385/ece_385_yay/lab5_2/register_unit.sv}
+vlog -sv -work work +incdir+C:/Personal\ Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal Stuff/School/ECE385/ece_385_yay/lab5_2/Instantiateram.sv}
+vlog -sv -work work +incdir+C:/Personal\ Stuff/School/ECE385/ece_385_yay/lab5_2 {C:/Personal Stuff/School/ECE385/ece_385_yay/lab5_2/slc3_sramtop.sv}
+
